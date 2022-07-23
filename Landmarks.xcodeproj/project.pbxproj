@@ -13,6 +13,8 @@
 		1B1185AA288C35B8004A6413 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B118598288C35B8004A6413 /* ContentView.swift */; };
 		1B1185AB288C35B8004A6413 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B118599288C35B8004A6413 /* Assets.xcassets */; };
 		1B1185AC288C35B8004A6413 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B118599288C35B8004A6413 /* Assets.xcassets */; };
+		1B1185B6288C3C18004A6413 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1185B5288C3C18004A6413 /* CircleImage.swift */; };
+		1B1185B7288C3C18004A6413 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1185B5288C3C18004A6413 /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,7 @@
 		1B11859E288C35B8004A6413 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B1185A4288C35B8004A6413 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B1185A6288C35B8004A6413 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		1B1185B5288C3C18004A6413 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,7 @@
 				1B118597288C35B8004A6413 /* LandmarksApp.swift */,
 				1B118598288C35B8004A6413 /* ContentView.swift */,
 				1B118599288C35B8004A6413 /* Assets.xcassets */,
+				1B1185B5288C3C18004A6413 /* CircleImage.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -178,6 +182,7 @@
 			files = (
 				1B1185A9288C35B8004A6413 /* ContentView.swift in Sources */,
 				1B1185A7288C35B8004A6413 /* LandmarksApp.swift in Sources */,
+				1B1185B6288C3C18004A6413 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,6 +192,7 @@
 			files = (
 				1B1185AA288C35B8004A6413 /* ContentView.swift in Sources */,
 				1B1185A8288C35B8004A6413 /* LandmarksApp.swift in Sources */,
+				1B1185B7288C3C18004A6413 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
