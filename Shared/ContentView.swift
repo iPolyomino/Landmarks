@@ -9,15 +9,18 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Image("turtlerock")
-            .resizable()
-            .scaledToFit()
-            .frame(width: 400.0)
-            .clipShape(Circle())
-            .overlay {
-                Circle().stroke(.gray, lineWidth: 4)
+        VStack(alignment: .leading) {
+            Text("Turtle Rock")
+                .font(.title)
+            HStack {
+                Text("Joshua Tree National Park")
+                    .font(.subheadline)
+                Spacer()
+                Text("California")
+                    .font(.subheadline)
             }
-            .shadow(radius: 7)
+        }
+        .padding()
     }
 }
 
